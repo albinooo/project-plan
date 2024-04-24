@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/project"
+                        <a href="/projects"
                             class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-white hover:text-[#00B4FE] rounded-lg hover:bg-white">
                             <svg class="flex-shrink-0 w-5 h-5 mr-4" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/task"
+                        <a href="/tasks"
                             class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-white hover:text-[#00B4FE] rounded-lg hover:bg-white">
                             <svg class="flex-shrink-0 w-5 h-5 mr-4" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

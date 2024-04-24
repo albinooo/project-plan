@@ -114,7 +114,7 @@
                                 </button>
                             </a>
                         </div>
-                        <form action="" method="POST" enctype="multipart/form-data">
+                        <form action="tasks/edit" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="relative flex flex-col shadow-lg mb-6 rounded-lg p-4">
                                 <div class="block bg-transparent w-full overflow-x-auto">

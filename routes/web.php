@@ -36,13 +36,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('/projects/update/{idpj}', [ProjectController::class, 'update'])->name('projects.update');
 });
 
-// Rute Tasks
-Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('/tasks', [TaskController::class, 'index'])->name('tasks.index');
-    Route::get('/tasks/create', [TaskController::class, 'create'])->name('tasks.create');
-    Route::post('/tasks/save', [TaskController::class, 'save'])->name('tasks.save');
-});
-
 // Rute profil pengguna
 Route::middleware('auth')->group(function () {
     Route::get('/profile/edit', [ProfileController::class, 'edit'])->name('profile.edit');

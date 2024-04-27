@@ -7,11 +7,28 @@ use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
+
+    // function projects(){
+    //     $projects = DB::table('projects')->get();  // Mengambil semua proyek
+    //     $totalProjects = DB::table('projects')->count();  // Menghitung total proyek
+
+    //     return view('/dashboard', [
+    //         'projects' => $projects,
+    //         'totalProjects' => $totalProjects,  // Kirim total proyek ke view
+    //     ]);
+    // }
+
     public function index()
     {
     $projects = Project::all();
-    return view("dashboard")->with('projects', $projects);
-    }      
+    return view("project")->with('projects', $projects);
+    }
+    
+    public function indexdash()
+    {
+    $projects = Project::all();
+    return view("dashboard");
+    }
 
     public function add()
     {
@@ -37,7 +54,7 @@ class ProjectController extends Controller
     public function edit($idpj) 
     {
         $projects = Project::find($idpj);
-        return view("update", compact('projects'));
+        return view("editpj", compact('projects'));
     }
 
     public function update(Request $request, $idpj)

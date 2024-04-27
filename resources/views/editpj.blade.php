@@ -32,7 +32,7 @@
                 </div>
                 <ul class="space-y-2 font-medium">
                     <li>
-                        <a href="#"
+                        <a href="/dashboard"
                             class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-white hover:text-[#00B4FE] rounded-lg hover:bg-white">
                             <svg class="flex-shrink-0 w-5 h-5 mr-4" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="/projects"
                             class="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-white hover:text-[#00B4FE] rounded-lg hover:bg-white">
                             <svg class="flex-shrink-0 w-5 h-5 mr-4" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
@@ -49,6 +49,7 @@
                             Project
                         </a>
                     </li>
+                    
                 </ul>
 
                 <div class="px-4 mt-6">
@@ -86,15 +87,16 @@
                             <h2 class="text-lg font-poppins font-bold"><span>Edit Project</span></h2>
                         </div>
                         <div class="flex">
-                            <a href="{{ url()->previous() }}">
+                            <a href="{{ route('projects.index') }}">
                                 <button
-                                    class="bg-white hover:bg-[#00B4FE] text-black hover:text-white transition ease-linear py-1 px-3 border  rounded-xl font-poppins font-semibold text-md">
+                                    class="bg-white hover:bg-[#00B4FE] text-black hover:text-white transition ease-linear py-1 px-3 border rounded-xl font-poppins font-semibold text-md">
                                     <i class="fa-solid fa-caret-left"></i>
                                     Kembali
                                 </button>
                             </a>
                         </div>
-                        <form action="/projects/editpj" method="POST" enctype="multipart/form-data">
+                        
+                        <form action="/projects/save" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="relative flex flex-col shadow-lg mb-6 rounded-lg p-4">
                                 <div class="block bg-transparent w-full overflow-x-auto">
@@ -105,16 +107,14 @@
                                                     <span class="text-md font-poppins font-semibold text-black">Nama</span>
                                                 </div>
                                                 <div class="w-8/12 p-2 rounded-l-lg">
-                                                    <input class="h-full w-full outline-none font-poppins" type="text" name="nama">
+                                                    <input value="{{$projects->name}}" class="h-full w-full outline-none font-poppins" type="text" name="name">
                                                 </div>
                                             </div>
                                             <div class="w-full flex border-solid border rounded-lg mt-2">
-                                                <div class="w-4/12 bg-gray-200 p-2 rounded-l-lg">
+                                                <div class="w-6/12 bg-gray-200 p-2 rounded-l-lg">
                                                     <span class="text-md font-poppins font-semibold text-black">Tanggal</span>
                                                 </div>
-                                                <div class="w-8/12 p-2 rounded-l-lg">
-                                                    <input class="h-full w-full outline-none font-poppins" type="text" name="tanggal">
-                                                </div>
+                                                <input class="h-full w-full outline-none font-poppins" type="date" name="date">
                                             </div>
                                         </div>
                                         <div class="ml-2 mt-1 w-1/2">
@@ -123,13 +123,13 @@
                                                     <span class="text-md font-poppins font-semibold text-black">Deskripsi</span>
                                                 </div>
                                                 <div class="w-8/12 p-2 rounded-l-lg">
-                                                    <input class="h-full w-full outline-none font-poppins" type="text" name="deskripsi">
+                                                    <input value="{{$projects->desc}}" class="h-full w-full outline-none font-poppins" type="text" name="desc">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="w-full mt-3 flex items-end justify-end">
-                                        <a href="/dashboard">
+                                        <a href="/projects">
                                             <button
                                                 class="bg-white hover:bg-[#00B4FE] text-black hover:text-white transition ease-linear py-2 px-3 border  rounded-xl font-poppins font-semibold text-md"
                                                 type="submit">

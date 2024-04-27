@@ -43,9 +43,8 @@
                 <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                     <div>
                         <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-6xl">Simple to-do list
-                            maker that meets your team's need</h1>
-                        <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">Plan, organize, and collaborate on any
-                            project with task management that can be customized for every need.</p>
+                            maker that meets your needs</h1>
+                        <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">Create project and create task management that can be customized for every need.</p>
                     </div>
 
                     <div>
@@ -55,79 +54,11 @@
             </div>
         </section>
 
-        <section class="py-12 bg-white sm:py-16 lg:py-20">
-            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">Project
-                        Management Doesn't Have To Be Hard</h2>
-                </div>
-
-                <div
-                    class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
-                    <div class="md:p-8 lg:p-14">
-                        <svg class="mx-auto" width="46" height="46" viewBox="0 0 46 46" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M45 29V23C45 10.85 35.15 1 23 1C10.85 1 1 10.85 1 23V29" stroke="#161616"
-                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M13 29H1V41C1 43.209 2.791 45 5 45H13V29Z" fill="#D4D4D8" stroke="#161616"
-                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M45 29H33V45H41C43.209 45 45 43.209 45 41V29Z" fill="#D4D4D8" stroke="#161616"
-                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                        <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Support</h3>
-                        <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis
-                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
-                    </div>
-
-                    <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
-                        <svg class="mx-auto" width="46" height="46" viewBox="0 0 46 46" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M27 27H19V45H27V27Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M9 37H1V45H9V37Z" fill="#D4D4D8" stroke="#161616" stroke-width="2"
-                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M45 17H37V45H45V17Z" fill="#D4D4D8" stroke="#161616" stroke-width="2"
-                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M5 17L15 7L23 15L37 1" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M28 1H37V10" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Sales</h3>
-                        <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis
-                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
-                    </div>
-
-                    <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
-                        <svg class="mx-auto" width="42" height="42" viewBox="0 0 42 42" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M41 1H1V41H41V1Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M18 7H7V20H18V7Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M18 26H7V35H18V26Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M35 7H24V35H35V7Z" fill="#D4D4D8" stroke="#161616" stroke-width="2"
-                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Onboarding</h3>
-                        <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis
-                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="py-10 bg-[#00B4FE] sm:py-16 lg:py-24">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="max-w-2xl mx-auto text-center">
-                    <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Project Management
-                        Shouldn't Take You Away From Your Business.</h2>
-                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-white">Freedcamp helps you stay on
-                        track, on deadline, and save time on project management. We help you…</p>
+                    <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">How To Use Aplication Planify</h2>
+                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-white">Planify helps you stay save time on project management. We help you…</p>
                 </div>
 
                 <div class="relative mt-12 lg:mt-20">
@@ -137,7 +68,7 @@
                                 class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                                 <span class="text-xl font-semibold text-gray-700"> 1 </span>
                             </div>
-                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">to-dos</h3>
+                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">Register</h3>
                             <p class="mt-4 text-base text-white">Amet minim mollit non deserunt ullamco est sit aliqua
                                 dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         </div>
@@ -147,7 +78,7 @@
                                 class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                                 <span class="text-xl font-semibold text-gray-700"> 2 </span>
                             </div>
-                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">project</h3>
+                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">Login</h3>
                             <p class="mt-4 text-base text-white">Amet minim mollit non deserunt ullamco est sit aliqua
                                 dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         </div>
@@ -157,7 +88,7 @@
                                 class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                                 <span class="text-xl font-semibold text-gray-700"> 3 </span>
                             </div>
-                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">task</h3>
+                            <h3 class="mt-6 text-xl font-semibold leading-tight text-white md:mt-10">Project</h3>
                             <p class="mt-4 text-base text-white">Amet minim mollit non deserunt ullamco est sit aliqua
                                 dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         </div>
@@ -166,15 +97,30 @@
             </div>
         </section>
 
-        <section class="pt-12 bg-white sm:pt-16">
-            <div class="pb-12 bg-white">
-                <div class="relative">
-                    <div class="absolute inset-0 h-2/3 bg-white"></div>
-                    <div class="relative mx-auto">
-                        <div class="lg:max-w-6xl lg:mx-auto">
-                            <img class="transform scale-110"
-                                src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png" alt="" />
-                        </div>
+        <section class="py-12 bg-slate-100 sm:py-16 lg:py-20">
+            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl xl:text-5xl font-pj">Planify Doesn't Have To Be Hard</h2>
+                </div>
+
+                <div
+                    class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
+                    <div class="md:p-8 lg:p-14">
+                        <h3 class="mt-12 text-xl font-bold text-black font-pj">Support</h3>
+                        <p class="mt-5 text-base text-black font-pj">Lorem ipsum dolor sit amet, consectetur adipis
+                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                    </div>
+
+                    <div class="md:p-8 lg:p-14 md:border-l md:border-white  ">
+                        <h3 class="mt-12 text-xl font-bold text-black font-pj">Project</h3>
+                        <p class="mt-5 text-base text-black font-pj">Lorem ipsum dolor sit amet, consectetur adipis
+                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                    </div>
+
+                    <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
+                        <h3 class="mt-12 text-xl font-bold text-black font-pj">On boarding</h3>
+                        <p class="mt-5 text-base text-black font-pj">Lorem ipsum dolor sit amet, consectetur adipis
+                            elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
                     </div>
                 </div>
             </div>

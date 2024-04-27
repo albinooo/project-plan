@@ -14,11 +14,12 @@
             <!-- left side -->
             <div class="relative bg-[#00B4FE] justify-center">
                 <img src="/images/gambar.png" alt="img"
-                    class="w-[400px] bottom-10 right-4 p-9 hidden  md:block object-cover" />
+                    class="w-[400px] bottom-10 right-4 p-9 hidden md:block object-cover" />
                 <!-- text on image  -->
                 <div
-                    class="absolute hidden bottom-10 right-5 p-9 backdrop-blur-sm rounded drop-shadow-lg md:block text-center">
-                    <span class="text-white text-xl"> Welcome back to OUR REMINDER
+                    class="absolute hidden right-5 p-9 backdrop-blur-sm rounded drop-shadow-lg md:block text-center">
+                    <span class="text-white text-xl"> get's things done with todo
+                        <br />let's help you meet up your task
                     </span>
                 </div>
             </div>

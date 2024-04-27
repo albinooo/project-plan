@@ -23,7 +23,7 @@ Route::get('/', function () {
 
 // Rute-rute terkait dashboard
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('/dashboard', [ProjectController::class, 'index'])->name('dashboard');
+    Route::get('/dashboard', [ProjectController::class, 'indexdash'])->name('dashboard');
 });
 
 // Rute Project
@@ -45,7 +45,7 @@ Route::middleware('auth')->group(function () {
 
 // Rute detail (misalnya detail tugas) 
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('/detail', [TaskController::class, 'detail'])->name('detail');
+    Route::get('/detail', [ProjectController::class, 'detail'])->name('detail');
 });
 
 // Memuat rute otentikasi
